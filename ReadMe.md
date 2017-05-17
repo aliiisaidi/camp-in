@@ -21,7 +21,7 @@
     
     4. ouvrire le terminal
         1. cd Campin
-        2. git clone 
+        2. git clone https://github.com/aliiisaidi/camp-in.git . 
         3. composer install
         4. npm install
         
