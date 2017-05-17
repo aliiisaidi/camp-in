@@ -1,0 +1,82 @@
+.input-error:focus, .input-error {
+    border-color: #F2784B !important;
+}
+
+p.message-error {
+    color: #F2784B;
+    margin-left: 2px;
+}
+
+#logout {
+    cursor: pointer;
+}
+
+#logout:hover {
+    color: #D24D57;
+}
+
+.ratings {
+    display: block;
+}
+
+.rating-star {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.campingBox {
+    height: 530px;
+    margin-bottom: 20px;
+}
+
+.campingBox .overF {
+    overflow: auto;
+}
+
+#chartClassement, #chartCategorie, #chartInscriptions, #chartFavoris {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    margin-top:-10px;
+    height: 555px;
+    width: 100%;
+}
+
+#singleMap {
+    height: 150px !important;
+    width: 100% !important;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.theImage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    margin: auto !important;
+    vertical-align: middle;
+    width: 100%;
+}
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: white;
+}
